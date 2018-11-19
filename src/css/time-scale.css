@@ -1,0 +1,11 @@
+.time-scale-container {
+    float: left; 
+    position: relative;
+}
+.time-scale-container .scale-marks {
+    position: absolute;
+    right: 0px; 
+    color: black; 
+    line-height: 0; 
+    padding-right: 10px;
+}

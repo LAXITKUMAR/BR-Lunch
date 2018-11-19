@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+.light-text {
+    font-weight: 300;
+    font-size: 0.5rem;
+    color: grey;
+}

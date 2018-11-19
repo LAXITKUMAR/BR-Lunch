@@ -1,0 +1,31 @@
+{
+  "name": "br-lunch",
+  "version": "1.0.0",
+  "description": "Simple app to shoew BR-Lunch problem",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "prestart": "npm install",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAXITKUMAR/BR-Lunch.git"
+  },
+  "keywords": [
+    "BR",
+    "Lunch",
+    "BR-Lunch",
+    "event",
+    "calander"
+  ],
+  "author": "LAXITKUMAR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LAXITKUMAR/BR-Lunch/issues"
+  },
+  "homepage": "https://github.com/LAXITKUMAR/BR-Lunch#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

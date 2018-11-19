@@ -1,0 +1,5 @@
+.lunch-event {
+    position: absolute;
+    background-color: white;
+    border: 0.5px solid #f3f3f3; border-left-width: 7px; padding: 10px;
+}

@@ -1,0 +1,8 @@
+.event-container > div {
+    float: left; 
+    background-color: #dddddd;
+    box-sizing: content-box;
+}
+.event-container > div > div {
+    position: relative;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BR-Lunch Problem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="/src/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/time-scale.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/event-block.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/lunch-event.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div><h4>Please Use console to render the events. For Example: <pre>
+          <code>matchLunchEvent ([{start: 225, end: 285},{start: 210,end: 270},{start: 180, end: 240},{start: 240, end:300},{start: 300, end: 360},{start: 270, end: 330}])</code>
+          <code>matchLunchEvent ([{start: 225, end: 285},{start: 300,end: 360}, {start: 180, end: 240}])</code>
+        </pre></h4></div>
+    </div>
+
+    <!-- external:js -->
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+
+    <!-- Util Scripts -->
+    <script src="/src/util/date.js"></script>
+    <script src="/src/util/render.js"></script>
+
+    <!-- Config Scripts -->
+    <script src="/src/config/config.js"></script>
+
+    <!-- Service Scripts -->
+    <script src="/src/services/eventAnalyser.js"></script>
+
+    <!-- APP scripts -->
+    <script src="/src/components/TimingScale/TimingScale.js"></script>
+    <script src="/src/components/EventsBlock/LunchEvent.js"></script>
+    <script src="/src/components/EventsBlock/EventList.js"></script>
+    <script src="/src/components/EventsBlock/eventsBlock.js"></script>
+    <script src="/src/components/Layout.js"></script>
+    <script src="/src/app.js"></script>
+  </body>
+</html>
